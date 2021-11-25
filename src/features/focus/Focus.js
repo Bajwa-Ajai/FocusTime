@@ -15,7 +15,6 @@ export const Focus = ({ addSubj }) => {
         <View style={styles.title}>
           <Text style={styles.title}>What Task do you want to perform?</Text>
         </View>
-        console.log('Yolo');
         <View style={styles.inputContainer}>
           <TextInput
             style={{ flex: 1, marginRight: spacing.md, fontSize: 15 }}
