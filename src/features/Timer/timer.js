@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: colors.white,
-    fontSizes: fontSizes.lg,
+    fontSize: fontSizes.lg,
     fontWeight: 'bold',
     textAlign: 'center',
   },

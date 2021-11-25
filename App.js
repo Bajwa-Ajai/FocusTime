@@ -6,10 +6,13 @@ import Constants from 'expo-constants';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Focus } from './src/features/focus/Focus';
 import { FocusHistory } from './src/features/focus/FocusHistory';
-
+import { AppRegistry } from 'react-native';
 import { Timer } from './src/features/Timer/timer';
 import { colors } from './src/utils/color';
 import { spacing, fontSizes } from './src/utils/sizes';
+import { registerRootComponent } from 'expo';
+
+// AppRegistry.registerComponent('main',() => App);
 
 const STATUS = {
   COMPLETED: 1,
@@ -85,3 +88,6 @@ const styles = StyleSheet.create({
     // Platform
   },
 });
+
+
+// registerRootComponent(App);
